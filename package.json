@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.15.3",
     "grunt": "^1.0.1",
     "load-grunt-configs": "^1.0.0",
     "load-grunt-tasks": "^3.5.2"
