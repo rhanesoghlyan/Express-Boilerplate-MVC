@@ -13,5 +13,10 @@
     "grunt": "^1.0.1",
     "load-grunt-configs": "^1.0.0",
     "load-grunt-tasks": "^3.5.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-express": "^1.4.1",
+    "grunt-parallel": "^0.5.1"
   }
 }

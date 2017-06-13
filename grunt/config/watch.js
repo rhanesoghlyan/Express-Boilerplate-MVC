@@ -4,8 +4,8 @@ module.exports = {
     express: {
         files: [
             '<%= project.app %>/**/*.js',
-            '<%= project.app %>/node_modules/**/*.js',
-            '<%= project.views.src %>/**/*.ejs'
+            '<%= project.views.src %>/**/*.ejs',
+            '<%= project.styles.css %>/*.css'
         ],
         tasks: ['express:dev'],
         options: {
