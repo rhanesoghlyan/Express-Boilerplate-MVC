@@ -1,18 +1,21 @@
 'use strict';
 
-const appPath = ('../../package.json').appPath || './index.js';
+const appPath = ('../../package.json').appPath || 'public';
 const path = require('path');
-const feAssets = path.join(appPath, 'public');
 
 module.exports = {
     app: appPath,
     styles: {
-        src: path.join(feAssets, 'styles/css')
+        src: path.join(appPath, 'styles/css')
     },
+    dist: 'dist',
     script: {
-        src: path.join(feAssets, 'js')
+        src: path.join(appPath, 'js')
     },
     views: {
-        src: './views'
+        src: 'views'
+    },
+    temp: {
+        src: '.tmp'
     }
 };
