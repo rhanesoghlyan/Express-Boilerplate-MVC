@@ -4,9 +4,9 @@ const app = express();
 
 app.engine('.html', require('ejs').__express);
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'views/post/'));
+app.set('views', path.join(__dirname, 'views/'));
 
-app.get('/', function (req, res) {
+app.get('/',  (req, res) =>{
     res.render('create', {
         title: 'Express',
     });
