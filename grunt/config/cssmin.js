@@ -2,7 +2,7 @@
 
 module.exports = {
     dist: {
-        src: ['public/styles/css/*.css'],
-        dest: '.tmp/css/style.min.css'
+        src: ['.<%= project.temp.src %>/css/styles.css'],
+        dest: '<%= project.temp.src %>/css/styles.min.css'
     }
 };

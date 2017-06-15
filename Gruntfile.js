@@ -16,4 +16,11 @@ module.exports = function (grunt) {
         'express',
         'watch'
     ]);
+
+    grunt.registerTask('build', [
+        'clean',
+        'concat',
+        'uglify',
+        'cssmin'
+    ]);
 };
