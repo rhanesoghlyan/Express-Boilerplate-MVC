@@ -14,6 +14,6 @@ module.exports = {
             '<%= project.views.src %>/**/*.ejs',
             '<%= project.styles.css %>/*.css'
         ],
-        tasks: ['concat', 'uglify', 'cssmin', 'jshint'],
+        tasks: ['jshint'],
     }
 };
