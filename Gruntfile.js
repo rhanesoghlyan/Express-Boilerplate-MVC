@@ -2,13 +2,18 @@
 
 module.exports = function (grunt) {
 
-    require('load-grunt-tasks')(grunt, {pattern: ['grunt-*', 'gruntify-*']});
+    require('load-grunt-tasks')(grunt, {pattern: ['grunt-*', 'grunt-contrib-*']});
 
-    const config = require('load-grunt-configs')(grunt, {
+    let config = require('load-grunt-configs')(grunt, {
         config: {
             src: 'grunt/config/*.js'
         }
     });
 
     grunt.initConfig(config);
+
+    grunt.registerTask('serve', [
+        'express',
+        'watch'
+    ]);
 };

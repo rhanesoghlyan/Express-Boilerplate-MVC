@@ -1,8 +1,8 @@
 'use strict';
 
-const appPath = ('../../package.json').appPath || 'server';
+const appPath = ('../../package.json').appPath || './index.js';
 const path = require('path');
-const feAssets = path.join(appPath, 'public', 'front', 'src');
+const feAssets = path.join(appPath, 'public');
 
 module.exports = {
     app: appPath,
@@ -13,6 +13,6 @@ module.exports = {
         src: path.join(feAssets, 'js')
     },
     views: {
-        src: path.join(feAssets, 'views')
+        src: './views'
     }
 };
