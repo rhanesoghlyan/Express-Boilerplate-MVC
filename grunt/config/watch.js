@@ -15,5 +15,9 @@ module.exports = {
             '<%= project.styles.css %>/*.css'
         ],
         tasks: ['jshint'],
-    }
+    },
+    sass: {
+        files: ['<%= project.app %>/styles/sass/*.scss'],
+        tasks: ['sass'],
+    },
 };
