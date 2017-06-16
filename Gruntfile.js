@@ -19,9 +19,11 @@ module.exports = function (grunt) {
 
     grunt.registerTask('build', [
         'clean',
+        'sass',
         'concat',
         'uglify',
         'cssmin',
-        'imagemin'
+        'imagemin',
+        'copy'
     ]);
 };

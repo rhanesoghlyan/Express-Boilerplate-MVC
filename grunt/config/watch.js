@@ -4,7 +4,6 @@ module.exports = {
     options: {
         livereload: true
     },
-
     express: {
         options: {
             spawn: false,
