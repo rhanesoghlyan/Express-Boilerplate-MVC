@@ -8,4 +8,5 @@ dist/
 
 .tmp/
 
-.sass-cache/
+/.sass-cache
+
