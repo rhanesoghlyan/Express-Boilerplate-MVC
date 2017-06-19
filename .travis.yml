@@ -1,6 +1,6 @@
 language: node_js
 before_install:
-  - 'npm install ruby-full'
+  - 'sudo apt-get install ruby-full'
   - 'gem install sass'
 node_js:
   - '7'
