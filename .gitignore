@@ -8,5 +8,6 @@ dist/
 
 .tmp/
 
-/.sass-cache
+.sass-cache/
 
+package-lock.json
