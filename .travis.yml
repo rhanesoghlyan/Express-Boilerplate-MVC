@@ -1,4 +1,7 @@
 language: node_js
+before_install:
+  - 'npm install ruby-full'
+  - 'gem install sass'
 node_js:
   - '7'
 before_script:
