@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
     dist: {
         options: {
@@ -5,7 +7,7 @@ module.exports = {
             sourcemap: 'none'
         },
         files: {
-            '<%= project.app %>/styles/css/main.css': '<%= project.app %>/styles/sass/style.scss'
+            '<%= project.app %>/styles/css/main.css': '<%= project.app %>/styles/sass/*.scss'
         }
     }
 };

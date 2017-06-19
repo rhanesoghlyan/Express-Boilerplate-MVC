@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports={
     files: ['*.js', 'grunt/config/*.js', '<%= project.app %>/js/**/*.js'],
     options: {
