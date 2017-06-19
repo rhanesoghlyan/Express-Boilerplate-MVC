@@ -2,11 +2,11 @@
 
 module.exports = {
     dist: {
-        files: [{
+        files: {
             src: [
-                '<%= project.temp.src %>'
+                '<%= project.temp.src %>',
+                '<%= project.dist %>'
             ]
-        }]
-    },
-    tmp: '<%= project.temp.src %>'
+        }
+    }
 };
