@@ -13,12 +13,14 @@ module.exports = function (grunt) {
     grunt.initConfig(config);
 
     grunt.registerTask('serve', [
+        'sass',
         'express',
         'watch'
     ]);
 
     grunt.registerTask('build', [
         'clean',
+        'jshint',
         'sass',
         'concat',
         'uglify',

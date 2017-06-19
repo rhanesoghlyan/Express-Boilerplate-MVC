@@ -8,10 +8,10 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.6",
-    "express": "^4.15.3",
-    "grunt": "^0.4.5"
+    "express": "^4.15.3"
   },
   "devDependencies": {
+    "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
@@ -22,6 +22,7 @@
     "grunt-contrib-uglify": "^3.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-express-server": "^0.5.3",
+    "grunt-update": "^0.2.3",
     "load-grunt-configs": "^1.0.0",
     "load-grunt-tasks": "^3.5.2"
   }
