@@ -1,6 +1,6 @@
 # Express-Boilerplate (MVC)
 
-[![Build Status](https://travis-ci.org/rhanesoghlyan/express-template.svg?branch=master)](https://travis-ci.org/rhanesoghlyan/express-template)
+[![Build Status](https://travis-ci.org/rhanesoghlyan/Express-Template-MVC.svg?branch=master)](https://travis-ci.org/rhanesoghlyan/Express-Template-MVC)
 
 > Express boilerplate using MVC
 
@@ -12,7 +12,7 @@ If you haven't used [Grunt](http://gruntjs.com/) or [nodeJS](https://nodejs.org)
 ##### Import a Git repository using the command line
 
 ```shell
-git clone https://github.com/rhanesoghlyan/express-template.git
+git clone https://github.com/rhanesoghlyan/Express-Template-MVC.git
 ```
 
 #####  Install nodeJS on your preferred system
