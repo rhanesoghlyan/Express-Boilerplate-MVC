@@ -1,10 +1,11 @@
+const configs = require('./common/config/env');
 const express = require('express');
 const path = require('path');
 const app = express();
 
 app.engine('.html', require('ejs').__express);
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'views/post'));
+app.set('views', path.join(__dirname, configs.viewPath, 'post'));
 
 app.get('/',  (req, res) =>{
     res.render('create', {
@@ -12,6 +13,6 @@ app.get('/',  (req, res) =>{
     });
 });
 
-app.listen(8080, () => {
-    console.log('Express server listening on port 8080');
+app.listen(configs.port, () => {
+    console.log('Express server listening on port ', configs.port);
 });
