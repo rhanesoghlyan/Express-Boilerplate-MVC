@@ -11,3 +11,4 @@ dist/
 .sass-cache/
 
 package-lock.json
+common/config/dev.json
