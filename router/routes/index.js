@@ -1,22 +1,17 @@
-module.exports=[
+module.exports = [
     {
-        url:'/',
-        method:'get',
-        handler:'./handlers/express'
+        url: '/',
+        method: 'get',
+        handler: './handlers/home'
     },
     {
-        url:'/home',
-        method:'get',
-        handler:'./handlers/home'
+        url: '/404',
+        method: 'get',
+        handler: './handlers/404'
     },
     {
-        url:'/404',
-        method:'get',
-        handler:'./handlers/404'
-    },
-    {
-        url:'*',
-        method:'get',
-        handler:'./handlers/error'
+        url: '*',
+        method: 'get',
+        handler: './handlers/error'
     },
 ];
