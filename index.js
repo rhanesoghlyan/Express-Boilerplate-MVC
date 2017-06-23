@@ -15,12 +15,6 @@ app.use(bodyParser.urlencoded({
 
 require(configs.front.router)(app);
 
-app.use(function (req,res) {
-    res.render('404', {
-        title: 'Page Not Found :(',
-    });
-});
-
 app.listen(configs.port, () => {
     console.log('Express server listening on port ', configs.port);
 });
