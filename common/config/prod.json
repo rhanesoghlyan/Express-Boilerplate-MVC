@@ -2,7 +2,7 @@
   "port": "8000",
   "name": "express-boilerplate",
   "front": {
-    "router": "",
+    "router": "./router",
     "viewPath": "views/",
     "assets": "public/"
   },
