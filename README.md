@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/rhanesoghlyan/Express-Boilerplate-MVC.svg?branch=master)](https://travis-ci.org/rhanesoghlyan/Express-Boilerplate-MVC)
 
-> Express boilerplate using MVC
+> Express boilerplate using ES6 and MVC pattern
 
 ### Getting Started
 This boilerplate requires Grunt `^1.0.1`.
