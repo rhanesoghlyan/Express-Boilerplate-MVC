@@ -1,4 +1,5 @@
 language: node_js
+services: mongodb
 before_install:
   - 'sudo apt-get install ruby-full'
   - 'gem install sass'

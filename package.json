@@ -1,15 +1,41 @@
 {
-  "name": "express-template",
+  "name": "Express-Boilerplate-MVC",
   "version": "0.0.1",
-  "description": "",
+  "description": "Boilerplate for fast bootstrap of express based applications using ES6 and MVC pattern",
+  "keywords": [
+    "Express-Boilerplate-MVC",
+    "expressJS",
+    "boilerplate",
+    "MVC",
+    "github"
+  ],
   "main": "index.js",
   "scripts": {},
-  "author": "",
+  "author": {
+    "name": "Robert Hanesoghlyan",
+    "email": "rhanesoghlyan@gmail.com",
+    "developers": [
+      {
+        "name": "Gagik Alixanyan",
+        "email": "alixanyangagik@gmail.com"
+      },
+      {
+        "name": "Artash Mardoyan",
+        "email": "artashmardoyan@gmail.com"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhanesoghlyan/Express-Boilerplate-MVC.git"
+  },
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
     "ejs": "^2.5.6",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "mongodb": "^2.2.29",
+    "mongoose": "^4.10.7"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
@@ -25,6 +51,7 @@
     "grunt-express-server": "^0.5.3",
     "grunt-update": "^0.2.3",
     "load-grunt-configs": "^1.0.0",
-    "load-grunt-tasks": "^3.5.2"
+    "load-grunt-tasks": "^3.5.2",
+    "body-parser": "latest"
   }
 }
