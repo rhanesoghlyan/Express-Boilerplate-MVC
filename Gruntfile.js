@@ -25,7 +25,9 @@ module.exports = function (grunt) {
         'concat',
         'uglify',
         'cssmin',
-        'imagemin',
-        'copy'
+        'copy',
+        'rev',
+        'usemin',
+        'imagemin'
     ]);
 };
