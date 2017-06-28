@@ -6,13 +6,13 @@ module.exports = {
             {
                 expand: true,
                 cwd: '.tmp/css/',
-                src: ['**/*.css'],
+                src: ['**/*.min.css'],
                 dest: 'dist/css/'
             },
             {
                 expand: true,
                 cwd: '.tmp/js/',
-                src: ['**/*.js'],
+                src: ['**/*.min.js'],
                 dest: 'dist/js/'
             },
             {

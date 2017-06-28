@@ -1,8 +1,13 @@
 'use strict';
 
 module.exports = {
-    dist: {
-        src: ['.<%= project.temp.src %>/css/styles.css'],
-        dest: '<%= project.temp.src %>/css/styles.min.css'
+    target: {
+        files: [{
+            expand: true,
+            cwd: '<%= project.temp.src %>/css',
+            src: ['*.css', '!*.min.css'],
+            dest: '<%= project.temp.src %>/css',
+            ext: '.min.css'
+        }]
     }
 };
