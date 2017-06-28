@@ -21,9 +21,10 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'clean',
         'jshint',
-        'sass',
         'concat',
+        'bower_concat',
         'uglify',
+        'sass',
         'cssmin',
         'copy',
         'rev',
