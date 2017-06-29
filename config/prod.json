@@ -2,7 +2,7 @@
   "port": "8000",
   "name": "express-boilerplate-mvc",
   "front": {
-    "router": "./router",
+    "router": "./endpoints",
     "viewPath": "views/",
     "assets": "public/"
   },
