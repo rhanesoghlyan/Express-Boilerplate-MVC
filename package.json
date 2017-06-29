@@ -37,6 +37,7 @@
     "express": "^4.15.3",
     "i18n-express": "^1.1.2",
     "lodash": "^4.17.4",
+    "moment": "^2.18.1",
     "mongodb": "^2.2.29",
     "mongoose": "^4.10.7",
     "winston": "^2.3.1"
