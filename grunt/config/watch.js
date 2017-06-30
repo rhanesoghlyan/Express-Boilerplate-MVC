@@ -9,14 +9,17 @@ module.exports = {
             spawn: false,
         },
         files: [
-            '<%= project.app %>/js/*.js',
+            '<%= project.styles.src %>/**/*.css',
+            '<%= project.script.src %>/**/*.js',
             '<%= project.views.src %>/**/*.ejs',
-            '<%= project.styles.css %>/*.css'
+            '<%= project.app %>/**/*.js',
+            '<%= project.app %>/**/*.ejs',
+            '<%= project.app %>/**/*.css'
         ],
         tasks: ['jshint'],
     },
     sass: {
-        files: ['<%= project.app %>/styles/sass/*.scss'],
+        files: ['<%= project.styles.src %>/sass/*.scss'],
         tasks: ['sass'],
     },
 };

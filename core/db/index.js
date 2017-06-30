@@ -17,7 +17,7 @@ Db.prototype.connect = function () {
         this.connection.on('error', function (err) {
             this.connectionInProgress = false;
             console.log('error', 'MongoDb error', err);
-            process.exit(1)
+            process.exit(1);
         }.bind(this));
         this.connection.once('open', function () {
             console.info('Connected to Db %s', uri);
