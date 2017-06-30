@@ -17,13 +17,13 @@ module.exports = {
             },
             {
                 expand: true,
-                cwd: '.tmp/images/',
+                cwd: '.tmp/img/',
                 src: ['**/*.{png,jpg,gif,svg}'],
                 dest: '<%= project.dist %>/img/'
             },
             {
                 expand: true,
-                cwd: '<%= project.app %>',
+                cwd: '<%= project.views.src %>',
                 src: ['**/*.ejs'],
                 dest: '<%= project.dist %>/views/'
             }
