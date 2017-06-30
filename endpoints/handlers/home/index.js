@@ -5,5 +5,5 @@ module.exports = function (req, res) {
     res.render('home', _assign({
         title: 'Welcome Home :)',
         meta: meta.home
-    }, req.locals))
+    }, req.locals));
 };

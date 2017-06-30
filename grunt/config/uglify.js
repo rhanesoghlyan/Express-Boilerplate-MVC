@@ -8,8 +8,8 @@ module.exports = {
     },
     dist:{
         files: {
-            '<%= project.temp.src %>/js/script.min.js': ['<%= project.temp.src %>/js/script.js'],
-            '<%= project.temp.src %>/js/vendor.min.js': ['<%= project.temp.src %>/js/vendor.js']
+            '<%= project.temp %>/js/script.min.js': ['<%= project.temp %>/js/script.js'],
+            '<%= project.temp %>/js/vendor.min.js': ['<%= project.temp %>/js/vendor.js']
         }
     }
 

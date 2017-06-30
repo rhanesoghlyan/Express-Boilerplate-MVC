@@ -5,17 +5,18 @@ const path = require('path');
 
 module.exports = {
     app: appPath,
-    styles: {
-        src: path.join(appPath, 'styles/css')
-    },
+    temp: '.tmp',
     dist: 'dist',
+    styles: {
+        src: path.join(appPath, 'front', 'styles')
+    },
     script: {
-        src: path.join(appPath, 'js')
+        src: path.join(appPath, 'front', 'js'),
     },
     views: {
-        src: 'views'
+        src: path.join(appPath, 'front', 'views'),
     },
-    temp: {
-        src: '.tmp'
+    img: {
+        src: path.join(appPath, 'front', 'img')
     }
 };

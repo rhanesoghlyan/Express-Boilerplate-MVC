@@ -4,7 +4,7 @@ module.exports = {
     dist: {
         files: {
             src: [
-                '<%= project.temp.src %>',
+                '<%= project.temp %>',
                 '<%= project.dist %>'
             ]
         }

@@ -7,26 +7,26 @@ module.exports = {
                 expand: true,
                 cwd: '.tmp/css/',
                 src: ['**/*.min.css'],
-                dest: 'dist/css/'
+                dest: '<%= project.dist %>/css/'
             },
             {
                 expand: true,
                 cwd: '.tmp/js/',
                 src: ['**/*.min.js'],
-                dest: 'dist/js/'
+                dest: '<%= project.dist %>/js/'
             },
             {
                 expand: true,
-                cwd: '.tmp/img/',
+                cwd: '.tmp/images/',
                 src: ['**/*.{png,jpg,gif,svg}'],
-                dest: 'dist/img/'
+                dest: '<%= project.dist %>/img/'
             },
             {
                 expand: true,
-                cwd: '<%= project.views.src %>',
+                cwd: '<%= project.app %>',
                 src: ['**/*.ejs'],
-                dest: 'dist/views/'
+                dest: '<%= project.dist %>/views/'
             }
-        ],
+        ]
     }
 };

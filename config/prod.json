@@ -1,9 +1,13 @@
 {
   "port": "8000",
   "name": "express-boilerplate-mvc",
+  "endpoints": "../endpoints/",
   "front": {
-    "router": "./endpoints",
-    "viewPath": "views/",
+    "viewPath": "front/views/",
+    "assets": "public/"
+  },
+  "admin":{
+    "viewPath": "admin/views/",
     "assets": "public/"
   },
   "db": {

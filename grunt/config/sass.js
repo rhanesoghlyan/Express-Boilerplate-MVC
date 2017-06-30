@@ -7,7 +7,7 @@ module.exports = {
             sourcemap: 'none'
         },
         files: {
-            '<%= project.app %>/styles/css/main.css': '<%= project.app %>/styles/sass/main.scss',
+            '<%= project.styles.src %>/css/main.css': '<%= project.styles.src %>/sass/main.scss',
         }
     }
 };
