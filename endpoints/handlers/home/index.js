@@ -1,7 +1,7 @@
-const meta = require('../../../meta');
+const meta = require('../../../common/meta');
 const _assign = require('lodash').assign;
 
-module.exports = function (req, res) {
+module.exports = (req, res) => {
     res.render('home', _assign({
         title: 'Welcome Home :)',
         meta: meta.home
