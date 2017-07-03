@@ -12,4 +12,4 @@ dist/
 
 package-lock.json
 
-config/dev.json
+common/config/dev.json
