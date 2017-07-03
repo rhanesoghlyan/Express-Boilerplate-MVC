@@ -3,12 +3,10 @@
   "name": "express-boilerplate-mvc",
   "endpoints": "../endpoints/",
   "front": {
-    "viewPath": "front/views/",
-    "assets": "public/"
+    "viewPath": "public/front/views/"
   },
   "admin":{
-    "viewPath": "admin/views/",
-    "assets": "public/"
+    "viewPath": "public/admin/views/"
   },
   "db": {
     "host": "mongodb://localhost",
