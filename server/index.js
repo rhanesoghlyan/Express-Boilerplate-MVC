@@ -1,13 +1,13 @@
+const config = require('../common/config/env');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
-const config = require('../config/env');
 const i18n = require('i18n-express');
 const express = require('express');
 const router = express.Router();
 const path = require('path');
 
 module.exports = {
-    appStart: function (app, configs, entry) {
+    appStart: (app, configs, entry) => {
         app.engine('.html', require('ejs').__express);
         app.set('view engine', 'ejs');
         app.set('views', path.join(__dirname, configs.viewPath, 'post'));
@@ -20,7 +20,7 @@ module.exports = {
         }));
 
         app.use(i18n({
-            translationsPath: path.join(__dirname, '..', 'i18n', 'locales'),
+            translationsPath: path.join(__dirname, '..', 'common', 'i18n', 'locales'),
             siteLangs: ['en'],
             browserEnable: false,
             defaultLang: process.env.LNG || 'en'

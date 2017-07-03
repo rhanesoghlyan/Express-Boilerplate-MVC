@@ -1,7 +1,7 @@
 const routes = require('./routes');
 
-module.exports = function (router) {
-    routes.forEach(function (r) {
+module.exports = (router) => {
+    routes.forEach((r) => {
         router[r.method](r.url, require(r.handler));
     });
 };
