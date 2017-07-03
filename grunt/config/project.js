@@ -1,6 +1,6 @@
 'use strict';
 
-const appPath = ('../../package.json').appPath || 'public';
+const appPath = ('../../package.json').appPath || 'server/public';
 const path = require('path');
 
 module.exports = {
